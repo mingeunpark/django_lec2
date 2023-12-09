@@ -11,4 +11,4 @@ def mainpage(request):
 
 
 def company(request):
-    return render(request, 'pages/company_info_html')
+    return render(request, 'pages/company_info.html')
